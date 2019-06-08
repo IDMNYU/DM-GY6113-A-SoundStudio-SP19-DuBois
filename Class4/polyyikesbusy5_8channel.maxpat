@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 0,
-			"revision" : 3,
+			"revision" : 5,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -200,10 +200,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 588.0, 765.0, 59.0, 29.0 ],
-					"saved_object_attributes" : 					{
-						"attr_comment" : ""
-					}
-,
 					"text" : "out~ 8"
 				}
 
@@ -215,10 +211,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 515.0, 765.0, 59.0, 29.0 ],
-					"saved_object_attributes" : 					{
-						"attr_comment" : ""
-					}
-,
 					"text" : "out~ 7"
 				}
 
@@ -230,10 +222,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 439.0, 765.0, 59.0, 29.0 ],
-					"saved_object_attributes" : 					{
-						"attr_comment" : ""
-					}
-,
 					"text" : "out~ 6"
 				}
 
@@ -245,10 +233,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 364.0, 765.0, 59.0, 29.0 ],
-					"saved_object_attributes" : 					{
-						"attr_comment" : ""
-					}
-,
 					"text" : "out~ 5"
 				}
 
@@ -260,10 +244,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 293.0, 765.0, 59.0, 29.0 ],
-					"saved_object_attributes" : 					{
-						"attr_comment" : ""
-					}
-,
 					"text" : "out~ 4"
 				}
 
@@ -275,10 +255,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 220.0, 765.0, 59.0, 29.0 ],
-					"saved_object_attributes" : 					{
-						"attr_comment" : ""
-					}
-,
 					"text" : "out~ 3"
 				}
 
@@ -290,10 +266,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 144.0, 765.0, 59.0, 29.0 ],
-					"saved_object_attributes" : 					{
-						"attr_comment" : ""
-					}
-,
 					"text" : "out~ 2"
 				}
 
@@ -329,8 +301,8 @@
 					"numinlets" : 6,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ -6.0, 143.0, 141.0, 29.0 ],
-					"text" : "scale 0 9999 0 1"
+					"patching_rect" : [ -6.0, 143.0, 151.0, 29.0 ],
+					"text" : "scale 0 9999 0. 1."
 				}
 
 			}
@@ -377,8 +349,8 @@
 					"numinlets" : 6,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 450.0, 119.0, 141.0, 29.0 ],
-					"text" : "scale 0 9999 0 1"
+					"patching_rect" : [ 450.0, 119.0, 151.0, 29.0 ],
+					"text" : "scale 0 9999 0. 1."
 				}
 
 			}
@@ -400,9 +372,9 @@
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 1,
-					"outlettype" : [ "int" ],
-					"patching_rect" : [ 444.0, 198.0, 40.0, 29.0 ],
-					"text" : "- 10"
+					"outlettype" : [ "float" ],
+					"patching_rect" : [ 444.0, 198.0, 45.0, 29.0 ],
+					"text" : "- 20."
 				}
 
 			}
@@ -424,9 +396,9 @@
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 1,
-					"outlettype" : [ "int" ],
-					"patching_rect" : [ 249.0, 267.0, 54.0, 29.0 ],
-					"text" : "+ 500"
+					"outlettype" : [ "float" ],
+					"patching_rect" : [ 249.0, 267.0, 59.0, 29.0 ],
+					"text" : "+ 500."
 				}
 
 			}
@@ -519,10 +491,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 69.0, 765.0, 59.0, 29.0 ],
-					"saved_object_attributes" : 					{
-						"attr_comment" : ""
-					}
-,
 					"text" : "out~ 1"
 				}
 
@@ -535,10 +503,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 241.0, 37.0, 38.0, 29.0 ],
-					"saved_object_attributes" : 					{
-						"attr_comment" : ""
-					}
-,
 					"text" : "in 1"
 				}
 
@@ -914,16 +878,7 @@
 				}
 
 			}
- ],
-		"dependency_cache" : [ 			{
-				"name" : "paneight.maxpat",
-				"bootpath" : "~/Documents/TEACHING/nyu/idm/soundstudio/DM-GY6113-A-SoundStudio-SP19-DuBois/Class4",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
- ],
-		"autosave" : 0
+ ]
 	}
 
 }
